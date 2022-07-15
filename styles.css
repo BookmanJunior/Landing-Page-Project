@@ -12,7 +12,6 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* color: white; */
 }
 
 h1 {
@@ -22,67 +21,59 @@ h1 {
     margin: 0; 
 }
 
-p {
+p,
+li {
     font-size: 18px;
     color: #E5E7EB;
-    margin-top: 0;
-    margin-bottom: 10px;
+
+}
+
+
+p {
+    margin: 10px 0;
 }
 
 .main-nav {
-    padding: 16px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
     background-color: #1F2937;
 }
 
 .nav-links {
     display: flex;
     gap: 16px;
-    justify-content: flex-end;
-    font-size: 18px;
-    color: #E5E7EB;
-
-
 }
 
 .logo {
     font-size: 24px;
     font-weight: 900;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .top-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #1F2937;
-    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 5.5em;
+    padding: 50px 0;
 }
 
-.top-section .content {
+.top-section-content {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 25em;
 
 }
 
-.top-section .main-content {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 auto;
-    gap: 50px;
-
-}
-
-.top-section .header-image {
-    display: flex;
-    justify-content: center;
+.hero-image {
     flex-shrink: 0;
-    width: 400px;
-    min-height: 200px;
     background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .top-sign-up-btn {
     background-color: #3882F6;
@@ -92,5 +83,6 @@ p {
     padding: 6px 24px;
     border-style: none;
     
-
 }
+
+
