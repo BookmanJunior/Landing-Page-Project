@@ -24,7 +24,8 @@ h1 {
 p,
 li {
     font-size: 18px;
-    color: #848884;
+    /* color: #848884; */
+    color: #E5E7EB;
 
 }
 
@@ -75,7 +76,7 @@ p {
 }
 
 
-.top-sign-up-btn {
+.sign-up-btn {
     background-color: #3882F6;
     border-radius: 6px;
     color: white;
@@ -99,7 +100,8 @@ p {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 110px;
     text-align: center;
 }
 
@@ -131,6 +133,7 @@ p {
 
 .quote-container {
     flex-basis: 45%;
+    padding: 50px 0;
 }
 
 .quote-text {
@@ -145,3 +148,43 @@ p {
     font-weight: bolder;
     align-self: flex-end;
 }
+
+/* Call to action styling */
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-info {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    flex-basis: 60%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.call-to-action-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-section .sign-up-btn {
+    border: 1px solid white;
+    align-self: flex-end;
+}
+
+.call-to-action-section p {
+    margin: 0;
+}
+
+.call-to-action-section .text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
