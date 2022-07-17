@@ -34,12 +34,17 @@ p {
     margin: 10px 0;
 }
 
+.top-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 16px;
-    background-color: #1F2937;
 }
 
 .nav-links {
@@ -53,26 +58,27 @@ p {
     color: #F9FAF8;
 }
 
-.top-section {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    gap: 5.5em;
-    padding: 50px 0;
-}
 
 .top-section-content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 25em;
+    gap: 80px;
+    margin: 50px 0 100px 0;
 
 }
 
+.header-text {
+    width: 25em;
+}
+
 .hero-image {
+    display: flex;
     flex-shrink: 0;
     background-color: grey;
     justify-content: center;
     align-items: center;
+    width: 25em;
 }
 
 
